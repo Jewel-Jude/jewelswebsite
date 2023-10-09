@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    margin-right: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 20px;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+.signup{
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 20px 70px;
+    border: none;
+}
+
+.explore{
+    background-color: darkblue;
+    color: white;
+}
+
+.div-button{
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:800px) {
+    section{
+        flex-direction: column;
+        padding: 20px 40px;
+        align-items: center;
+    }
+
+    .explore {
+        background-color: green;
+    }
+
+    header{
+        padding: 20px 40px;
+        flex-direction: column;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+
+    li{
+        display: block;
+        margin-right: 8px;
+        margin-bottom: 10px;
+    }
+
+    a{
+        color: white;
+    }
+
+    h2{
+        margin-bottom: 30px;
+    }
+}
